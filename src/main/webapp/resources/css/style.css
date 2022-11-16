@@ -5,6 +5,7 @@
 * License: https://creativecommons.org/licenses/by/3.0/
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+<<<<<<< HEAD
 
 /* 로그인  */
 body {
@@ -123,6 +124,8 @@ h3{
 	text-align: center;
 }
 
+=======
+>>>>>>> 2a05f423550eb8f482dafd4306cc1008b8f821da
 body {
   overflow-x: hidden;
   position: relative; }
@@ -215,8 +218,12 @@ a {
 
 .hero {
   background: #3b5d50;
+<<<<<<< HEAD
   padding: calc(4rem - 30px) 0 0rem 0; 
   margin-bottom: 50px; }
+=======
+  padding: calc(4rem - 30px) 0 0rem 0; }
+>>>>>>> 2a05f423550eb8f482dafd4306cc1008b8f821da
   @media (min-width: 768px) {
     .hero {
       padding: calc(4rem - 30px) 0 4rem 0; } }
@@ -233,9 +240,15 @@ a {
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 30px; }
+<<<<<<< HEAD
     @media (min-width: 2000px) {
       .hero h1 {
         font-size: 80px; } }
+=======
+    @media (min-width: 1400px) {
+      .hero h1 {
+        font-size: 54px; } }
+>>>>>>> 2a05f423550eb8f482dafd4306cc1008b8f821da
   .hero p {
     color: rgba(255, 255, 255, 0.5);
     margin-botom: 30px; }
@@ -828,5 +841,8 @@ textarea {
     height: 50px;
     border-radius: 50%;
     background: rgba(59, 93, 80, 0.2); }
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> 2a05f423550eb8f482dafd4306cc1008b8f821da
