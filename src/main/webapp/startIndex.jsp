@@ -12,15 +12,13 @@
 <a href="intro.do">소개</a><br/>
 <a href="shop.do">구경하기</a><br/>
 <a href="community.do">우리들의 공간</a><hr/>
-<<<<<<< HEAD
+
 <hr/>
 <a href="login.do">들어가기</a><br/>
 <a href="sangse.do">상세 페이지</a><br/>
 <hr/>
-=======
 
-<a href="login.do">들어가기</a><br/>
->>>>>>> 2a05f423550eb8f482dafd4306cc1008b8f821da
+<a href="login3.do">들어가기(회원가입 / 로그인)</a><br/>
 <a href="join.do">함께하기</a><br/>
 <a href="cart.do">장바구니</a><br/>
 <a href="myPage.do">나만의 공간</a><br/>
