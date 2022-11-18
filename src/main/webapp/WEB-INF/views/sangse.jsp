@@ -14,10 +14,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="favicon.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="description" content="" />
   <meta name="keywords" content="bootstrap, bootstrap4" />
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!-- Bootstrap CSS -->
 		<link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -25,14 +25,18 @@
 		<link href="resources/css/tiny-slider.css" rel="stylesheet">
 		<link href="resources/css/style.css" rel="stylesheet">
 		<title>[상 세 페 이 지]</title>
-	</head>
+		</head>
 
 	<body>
+
+		<script src="resources/js/bootstrap.bundle.min.js"></script>
+		<script src="resources/js/tiny-slider.js"></script>
+		<script src="resources/js/custom.js"></script>
 
 <!-- 상단 메뉴탭 -->
 		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 			<div class="container">
-				<a class="navbar-brand" href="index.html"> <img src="resources/images/로고1.png" alt="logo"></a>
+				<a class="navbar-brand" href="index.do"><img src="resources/images/로고1.png" alt="logo"></a>
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -69,6 +73,7 @@
 			</div>
 		<!-- [끝] 상단 탭 아래 -->
 
+<!-- [시작]상세페이지 -->
 		<!-- Start Column 1 -->
 		<!--  [시작] 상품 이미지  -->
 		<div class="untree_co-section product-section before-footer-section">
@@ -77,7 +82,6 @@
 					<div class="col-12 col-md-4 col-lg-8 mb-12">
 						<a class="product-item" href="#">
 							<img src="resources/images/서울의밤2.jpg" class="img-fluid product-thumbnail">
-						
 						</a>
 					</div> 
 		<!-- End Column 1 -->
@@ -87,127 +91,141 @@
 					<div class="col-12 col-md-4 col-lg-4 mb-12">
 						<a class="product-item" href="#">
 							<h2 class="product-title">[복순도가] 동백꽃, 제주 18도 375ml</h2>
-							<strong class="product-price"><%= price%>>18,000원</strong>
+							<strong class="product-price">18,000원</strong>
 							<hr/>
 						</a>
+						<a>설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다.
+						설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다. 설명입니다.
+						</a><br/><br/>
+						
+						<ul>
+							<li><a>원산지 제주</a></li>
+							<li><a>도수 18도</a></li>
+							<li><a>배송방법 택배</a></li>
+							<li><a>배송비 2,500원</a></li>
+						</ul>
+						
+						<table class="table">
+							<thead>
+								<tr>
+									<th class="product-quantity">수량</th>
+									<!-- <th></th>
+									<th></th>
+									<th></th>
+									<th></th> -->
+									<th class="product-total">Total</th>
+								</tr>
+							</thead>
+						
+						<tr>
+                          <td>
+                            <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 300px; inline-block;">
+                               	<span>
+                                	<button class="btn  btn-outline-black decrease" type="button">&minus;</button> &nbsp;
+                                </span> <!--   style="max-width: 100px; inline-block;"  -->
+                                <p class="input-group-prepend">&nbsp;
+                              	<input type="text" class="form-control text-center quantity-amount" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"> 
+                              	</p>&nbsp;
+                              	<a class="input-group-append" >
+                              		<span>
+                              			&nbsp;<button class="btn btn-outline-black increase" type="button">&plus;</button>
+                              		</span>
+                              	</a>
+                              <br/>
+                              
+                            </div>
+                           
+        
+                          </td>
+                          	<!-- <th></th>
+                          	<th></th>
+                          	<th></th>
+                          	<th></th> -->
+                          <td>18,000원</td>
+                        </tr>
+                        <tr>
+                        	<td colspan="6">
+                        	    <p class = ""><br/>
+	                           	 	&nbsp;<button class="btn btn-sangse">구매하기</button>&emsp;
+	                              	<button class="btn btn-cart">장바구니</button>&emsp;
+	                              	<button class="btn btn-cart">
+										<span class="fa fa-paper-plane"> 찜하기</span>
+									</button>
+								</p>
+                        	</td>
+                        </tr>
+                        </table>
+						
 					</div> 
 					<!-- End Column 2 -->
-
 
 		      	</div>
 		    </div>
 		</div>
 		<!-- [끝] 상품 이미지 -->
+		<!-- [끝]상세페이지 -->
 
-		<!-- Start Footer Section -->
-		<footer class="footer-section">
-			<div class="container relative">
+		<hr/>
+		<br/><br/><br/><br/><br/>
+		
+		
+<!-- 		<nav class="product_sangse" >	 -->
+<!-- [시작] 상세페이지 탭(상세 / 후기 / 질의) --> 
 
-				<div class="sofa-img">
-					<img src="images/sofa.png" alt="Image" class="img-fluid">
+<!-- Start Team Section -->
+		<div class="untree_co-section">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-lg-5 mx-auto text-center">
+						<h2 class="section-title"></h2>
+					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-lg-8">
-						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
 
-							<form action="#" class="row g-3">
-								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
-								</div>
-								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
-								</div>
-								<div class="col-auto">
-									<button class="btn btn-primary">
-										<span class="fa fa-paper-plane"></span>
-									</button>
-								</div>
-							</form>
+					<!-- Start Column 1 -->
+					<div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+						<h5 class><a href="index.do" ><span class=""><b>상세 설명</b></span></a></h5>
+					</div> 
+					<!-- End Column 1 -->
 
-						</div>
-					</div>
+
+					<!-- Start Column 2 -->
+					<div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+						<h5 class><a href="review.do" ><span class=""><b>상품 후기</b></span></a></h5>
+					</div> 
+					<!-- End Column 2 -->
+
+
+					<!-- Start Column 3 -->
+					<div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+						<h5 class><a href="question.do" ><span class=""><b >질의 응답</b></span></a></h5>
+					</div> 
+					<!-- End Column 3 -->
+				
 				</div>
-
-				<div class="row g-5 mb-5">
-					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo"><span></span></a></div>
-						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
-
-						<ul class="list-unstyled custom-social">
-							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-8">
-						<div class="row links-wrap">
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact us</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Support</a></li>
-									<li><a href="#">Knowledge base</a></li>
-									<li><a href="#">Live chat</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Our team</a></li>
-									<li><a href="#">Leadership</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Nordic Chair</a></li>
-									<li><a href="#">Kruzo Aero</a></li>
-									<li><a href="#">Ergonomic Chair</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="border-top copyright">
-					<div class="row pt-4">
-						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> <!-- License information: https://untree.co/license/ -->
-            </p>
-						</div>
-
-						<div class="col-lg-6 text-center text-lg-end">
-							<ul class="list-unstyled d-inline-flex ms-auto">
-								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
-
-					</div>
-				</div>
-
+				
 			</div>
-		</footer>
-		<!-- End Footer Section -->	
+		</div>
+		<!-- End Team Section -->
+<!-- 			<div class="product_sangse list"> -->
+	<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
 
+				
+					<td><a href="index.do" class="product_sangse list tab1"><b>상세 정보</b></a></td>
+					<td><a href="" class="product_sangse list tab2"><b>상품 후기</b></a></td>
+					<td><a href="" class="product_sangse list tab3"><b>질의 응답</b></a><td>
+				</ul><br/><br/><br/>
+		<!-- [끝] 상세페이지 탭(상세 / 후기 / 질의) -->
+			</div>
+			
+			<div class="product-section">
+				<img src="resources/images/고흥유자주1.jpg"/>
+			
+			</div>
+		</nav>
 
-		<script src="resources/js/bootstrap.bundle.min.js"></script>
-		<script src="resources/js/tiny-slider.js"></script>
-		<script src="resources/js/custom.js"></script>
 	</body>
 
 </html>

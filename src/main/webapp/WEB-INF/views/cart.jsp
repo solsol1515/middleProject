@@ -96,6 +96,7 @@
                           <th class="product-remove">Remove</th>
                         </tr>
                       </thead>
+                      
                       <tbody>
                         <tr>
                           <td class="product-thumbnail">
