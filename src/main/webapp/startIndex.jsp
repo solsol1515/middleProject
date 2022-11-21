@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>start</title>
+<title>내꺼</title>
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 <a href="community.do">우리들의 공간</a><hr/>
 
 <hr/>
-<a href="login.do">들어가기</a><br/>
+<a href="loginForm.do">들어가기</a><br/>
 <a href="sangse.do">상세 페이지</a><br/>
 <hr/>
 
