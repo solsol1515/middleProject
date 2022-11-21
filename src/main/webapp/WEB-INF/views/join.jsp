@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<<<<<<< HEAD
 
 <!-- Bootstrap CSS -->
 <link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -288,5 +289,11 @@
 	<script src="resources/js/custom.js"></script>
 	<script src="resources/js/join.js"></script>
 
+=======
+<title>Insert title here</title>
+</head>
+<body>
+
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 </body>
 </html>

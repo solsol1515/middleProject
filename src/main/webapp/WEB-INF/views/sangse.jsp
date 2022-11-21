@@ -34,7 +34,10 @@
 		<script src="resources/js/custom.js"></script>
 
 <!-- 상단 메뉴탭 -->
+<<<<<<< HEAD
 <!-- Start Header/Navigation -->
+=======
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 			<div class="container">
 				<a class="navbar-brand" href="index.do"><img src="resources/images/로고1.png" alt="logo"></a>
@@ -57,6 +60,10 @@
 					</ul>
 				</div>
 			</div>
+<<<<<<< HEAD
+=======
+				
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 		</nav>
 		<!-- End Header/Navigation -->
 
@@ -113,7 +120,11 @@
 									<th></th>
 									<th></th>
 									<th></th> -->
+<<<<<<< HEAD
 									<th class="product-total">총액</th>
+=======
+									<th class="product-total">Total</th>
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 								</tr>
 							</thead>
 						
@@ -134,6 +145,11 @@
                               <br/>
                               
                             </div>
+<<<<<<< HEAD
+=======
+                           
+        
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
                           </td>
                           	<!-- <th></th>
                           	<th></th>
@@ -179,25 +195,43 @@
 					</div>
 				</div>
 
+<<<<<<< HEAD
 				<div class="row" style="text-align:center">
 
 					<!-- Start Column 1 -->
 					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
 						<h6 class><a href="index.do" ><span class=""><b>상세설명</b></span></a></h6>
+=======
+				<div class="row">
+
+					<!-- Start Column 1 -->
+					<div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+						<h5 class><a href="index.do" ><span class=""><b>상세 설명</b></span></a></h5>
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 					</div> 
 					<!-- End Column 1 -->
 
 
 					<!-- Start Column 2 -->
+<<<<<<< HEAD
 					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
 						<h6 class><a href="review.do" ><span class=""><b>상품후기</b></span></a></h6>
+=======
+					<div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+						<h5 class><a href="review.do" ><span class=""><b>상품 후기</b></span></a></h5>
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 					</div> 
 					<!-- End Column 2 -->
 
 
 					<!-- Start Column 3 -->
+<<<<<<< HEAD
 					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
 						<h6 class><a href="question.do" ><span class=""><b>질의응답</b></span></a></h6>
+=======
+					<div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+						<h5 class><a href="question.do" ><span class=""><b >질의 응답</b></span></a></h5>
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 					</div> 
 					<!-- End Column 3 -->
 				
@@ -219,7 +253,11 @@
 			</div>
 			
 			<div class="product-section">
+<<<<<<< HEAD
 				<center><img src="resources/images/고흥유자주1.jpg"/></center>
+=======
+				<img src="resources/images/고흥유자주1.jpg"/>
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 			
 			</div>
 		</nav>

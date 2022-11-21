@@ -176,8 +176,12 @@ a.more {
 		}
 	}
 	.hero p {
+<<<<<<< HEAD
 /* 	rgba(255, 255, 255, 0.5); */
 		color: #968c7e;
+=======
+		color: rgba(255, 255, 255, 0.5);
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 		margin-botom: 30px;
 	}
 	.hero .hero-img-wrap {
@@ -268,12 +272,21 @@ a.more {
 	}
 	.btn.btn-primary:hover {
 		background: #f2efea;
+<<<<<<< HEAD
 		border-color: #f2efea;
 	}
 	.btn.btn-secondary {
 		color: #f6f6f6;
 		background: #c1c4b9;
 		border-color: #c1c4b9;
+=======
+		border-color: ##f2efea;
+	}
+	.btn.btn-secondary {
+		color: #2f2f2f;
+		background: #f9bf29;
+		border-color: #f9bf29;
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 	}
 	.btn.btn-secondary:hover {
 		background: #f8b810;
@@ -380,7 +393,10 @@ a.more {
 	}
 	.why-choose-section {
 		padding: 7rem 0;
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 	}
 	.why-choose-section .img-wrap {
 		position: relative;
@@ -552,11 +568,15 @@ a.more {
 	.testimonial-section {
 		padding: 3rem 0 7rem 0;
 	}
+<<<<<<< HEAD
 	.testimonial-section .section-title img{
 	position: center;
 	}
 	.testimonial-slider-wrap {
 	
+=======
+	.testimonial-slider-wrap {
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 		position: relative;
 	}
 	.testimonial-slider-wrap .tns-inner {
@@ -817,7 +837,11 @@ a.more {
 	.footer-section .border-top.copyright {
 		font-size: 14px !important;
 	}
+<<<<<<< HEAD
 	.untree_co-section .container .row .col-12 {
+=======
+	.untree_co-section {
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 		padding: 7rem 0;
 	}
 	.form-control {
@@ -948,6 +972,7 @@ a.more {
 	width : 70px;
 }
 
+<<<<<<< HEAD
 /* 결제 화면(사진) */
 .mask1 {
    position: absolute;
@@ -1013,4 +1038,7 @@ padding: 0 40px 0 0 ;
    color: #e7e7e7;
    cursor: pointer;
 }
+=======
+
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 	

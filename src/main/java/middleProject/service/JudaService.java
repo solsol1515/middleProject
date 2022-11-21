@@ -1,5 +1,6 @@
 package middleProject.service;
 
+<<<<<<< HEAD
 import javax.servlet.http.HttpSession;
 
 import middleProject.domain.LoginVO;
@@ -31,3 +32,8 @@ public interface JudaService {
 //	
 //	// 02. 회원 로그아웃
 //	public void logout(HttpSession session);
+=======
+public interface JudaService {
+
+}
+>>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
