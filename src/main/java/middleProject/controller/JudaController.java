@@ -1,16 +1,12 @@
 package middleProject.controller;
 
-<<<<<<< HEAD
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
-=======
->>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-<<<<<<< HEAD
 import middleProject.domain.LoginVO;
 import middleProject.service.JudaService;
 
@@ -90,16 +86,6 @@ public class JudaController {
 //			 // login.jsp로 이동
 //		 }
 //	 }
-=======
-@Controller
-public class JudaController {
-
-	@RequestMapping("{url}.do")
-	public String userJoin(@PathVariable String url) {
-		System.out.println("확인");
-		return url;
-	}
-	
 	
 	/*
 	 * @RequestMapping("index.do") public void index() {
@@ -113,6 +99,3 @@ public class JudaController {
 	 * @RequestMapping("intro.do") public void goodsList() {
 	 * System.out.println("goodsList.do 실행"); }
 	 */
-	
-}
->>>>>>> 87a9c1b58909d2a0468378e6d55cf909113303da
