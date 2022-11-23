@@ -17,6 +17,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-ma
 	VALUES (#{userId}, #{userPass}, #{userName})
 	</insert>
 
+
 	<select id="idCheck" parameterType="MemberVO" resultType="MemberVO">
 	SELECT 		userId, userPass
 	FROM 			member

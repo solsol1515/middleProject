@@ -16,7 +16,6 @@
 <script type="text/javascript" src="resources/js/login.js"></script>
 
 
-
 <link href="resources/css/style_login.css" rel="stylesheet" type="text/css">
 
 <body>

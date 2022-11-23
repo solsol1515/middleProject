@@ -7,7 +7,7 @@
 	function check(){
 	
 		if(document.form.member_id.value==""){
-			alert("ID를 입력하세요.")
+			alert("ID를 입력햇.")
 			document.form.member_id.focus();
 			return false;
 		}
